@@ -46,7 +46,7 @@ const Navbar = () => {
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className=' list-none hidden sm:flex flex-row gap-10 items-center'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -57,6 +57,9 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <a href="https://drive.google.com/file/d/1UnABGAoKGfH5tKG8NPGWC9INAUjnMs2w/view?usp=sharing" target="_blank">
+            <button className="bg-white py-2 px-4 rounded-full font-semibold text-black">Download CV</button>
+          </a>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
