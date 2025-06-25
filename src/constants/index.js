@@ -214,6 +214,7 @@ const projects = [
       },
     ],
     image: movie,
+    link: 'https://movie-app-three-henna.vercel.app',
     source_code_link: "https://github.com/kudratov26/Movie-App",
   },
   {
@@ -239,7 +240,8 @@ const projects = [
       }
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    link: 'https://saas-app-six-drab.vercel.app',
+    source_code_link: "https://github.com/kudratov26/saas-app",
   },
   {
     name: "Zentry",
@@ -260,7 +262,8 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    link: 'https://awwwards-winner-site.vercel.app',
+    source_code_link: "https://github.com/kudratov26/awwwards-winner-site",
   },
 ];
 
